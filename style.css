@@ -1,0 +1,304 @@
+#img1{
+    height: 80px;
+    width: 100px;
+}
+
+/* Nav bar */
+
+#nav{
+    background-color: #f8b808 ;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 20px;
+}
+
+#box{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    position: relative;
+    left:34px;
+    box-shadow: 5px 10px 12px 0px rgba(46, 45, 45, 0.541);
+    
+    
+}
+#box::placeholder{
+    color: white;
+}
+
+#btn1{
+    background-color: rgb(19, 161, 218);
+    color: white;
+    position: relative;
+    border: 0px;
+    z-index: 99;
+    box-shadow: 5px 10px 12px 0px rgba(46, 45, 45, 0.472);
+}
+
+#serachform{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    left: -20px;
+}
+
+
+
+#banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fcc302;
+}
+
+#bannertext{
+    margin-top: 40px;
+}
+
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1300px){
+    #bannertext h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    #bannertext h1{
+        font-size: 40px;
+    }
+
+    #banner{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width:400px){
+    #bannertext h1{
+        font-size: 35px;
+    }
+}
+
+
+#bb{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+
+#btext h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+#btext p{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#btext button{
+    color: white;
+}
+
+@media only screen and (max-width:1300px){
+    #btext h2{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    #btext h2{
+        font-size: 40px;
+    }
+
+    #bb{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width:450px){
+    #btext h2{
+        font-size: 30px;
+    }
+    #btext p{
+        font-size: 15px;
+    }
+}
+
+#third {
+    /* background-color: #f8b808; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #f8b808;
+    
+}
+.ic{
+    color: white;
+    font-size: 39px !important;
+    margin-top: 40px;
+}
+.txt{
+    color: white;
+    font-size: 20px ;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+@media only screen and (max-width:500px) {
+    .ic{
+        font-size:32px !important;
+    }
+    .txt{
+        font-size: 15px;
+    }
+}
+/* --------------------------------------------------------------------------------------- */
+/* blog */
+#blogt{
+    padding: 30px 0px;
+}
+#blogt p{
+    margin-top: 10px;
+}
+
+.bimg{
+    height: 250px;
+}
+
+.bdata h3{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bdata h4{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(64, 187, 236);
+}
+.bdata p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bdata sup{
+    font-size: 20px;
+}
+.cd{
+    color: rgb(10, 83, 218) ;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.bdata a{
+    padding-bottom: 50px;
+}
+.bdr{
+    border: 1px solid rgb(185,185,185);
+    /* margin-top: 10px; */
+    border-top: 0px;
+    box-shadow: 2px 10px 12px 0px rgba(46, 45, 45, 0.541);
+    padding: 10px;
+}
+/* -------------------------------------------------------------------------------------- */
+/* footer */
+
+.l{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.l a{
+    text-decoration: none;
+    color: white;
+}
+.cl h2{
+    color: white;
+    margin-top: 50px;
+}
+
+#foot{
+    background-color: rgb(31, 29, 29);
+    padding: 30px 0px;
+}
+
+.l a:hover{
+    background-color: rgb(47, 47, 47);
+}
+
+#footb{
+    position: relative;
+    border: 0px;
+    z-index: 99;
+}
+.foot{
+    color: white;
+    margin-top: 50px;
+    text-align: end;
+}
+.foot p{
+    margin-bottom: 30px;
+}
+.foot form{
+    margin-bottom: 20px;
+    
+}
+#footi i{
+    color: white !important;
+    padding: 0 5px;
+    font-size: 30px;
+}
+
+#footsb{
+    background-color: #f8b808;
+    color: black;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 270px;
+    position: relative;
+    left: 5px;
+}
+#footb{
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    padding: 10px 30px;
+    
+}
+
+@media only screen and (max-width:500px) {
+    #footsb{
+        max-width: 250px;
+    }
+}
+@media only screen and (max-width:1100px) {
+    #footsb{
+        max-width: 175px;
+    }
+
+    #footb{
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #footsb{
+        max-width: 150px;
+    }
+}
